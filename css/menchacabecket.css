@@ -1,0 +1,31 @@
+body{
+    background-color: #5d9b9b;
+}
+div{
+    background-color: white;
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
+}
+h1{
+    background-color: cadetblue;
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
+}
+img{
+    margin: 0 auto;   
+    display: block; 
+}
+table{
+    margin-bottom: 12px;
+}
+ul{
+    background-color: #74b49b;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
