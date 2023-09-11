@@ -1,0 +1,29 @@
+*{  
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: auto;
+}
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h5{
+    color: rgb(100, 88, 88);
+}
+#cuerpo{
+    height: 100%;
+    background: linear-gradient(rgb(8, 4, 61), rgb(38, 38, 238));
+    color: white;
+}
+#cabeza{
+    width: auto;
+    height: auto;
+}
+#image{
+    border-radius: 100px;
+}
+hr{
+    width: 400px;
+    border-color: rgba(49, 45, 45, 0.774);
+}
