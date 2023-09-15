@@ -4,55 +4,30 @@
     box-sizing: border-box;
 }
 
-body {
-    background: linear-gradient(#B31312, #2B2A4C);
-    background-position: center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #contenedor {
-    background: linear-gradient(#EEE2DE, #EA906C);
-    backdrop-filter: blur(10px);
-    border-radius: 50px;
-    box-shadow: 0 0 10px black;
-    width: 80vw;
-    height: 80vh;
+    width: 95vw;
+    height: 90vh;
     display: flex;
     flex-direction: row;
 }
 
 #imagen {
-    background: url(../images/ManuelMartinez.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 50px;
-    box-shadow: 0 0 5px black;
-    width: 25%;
-    height: 60%;
-    margin: auto;
-    position: relative;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#imagen_uatf {
-    background: url(https://www.uatf.edu.bo/assets/images/uatf.webp);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    z-index: 100;
-    bottom: -10px;
-    right: -10px;
+img {
+    padding: 1em;
+    width: 25em;
+    height: 25em;
+    border-radius: 100%;
 }
 
 #descripcion {
-    width: 70%;
+    backdrop-filter: blur(10px);
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -61,8 +36,10 @@ body {
 #cabeza {
     margin: 1em;
 }
-#cabeza h1 {
-    margin: .5em;
+h1 {
+    background-color: black;
+    color: azure;
+    padding: .30em;
     text-align: center;
 }
 
@@ -79,17 +56,11 @@ body {
     justify-content: center;
     overflow: auto;
 }
-#preguntas {
-    
-}
 #preguntas p {
     padding-left: 10px;
     margin-bottom: 1em;
     border-bottom: 1px solid black;
     border-radius: 0 0 0 5px;
-}
-#respuestas {
-    
 }
 #respuestas p {
     margin-bottom: 1em;
