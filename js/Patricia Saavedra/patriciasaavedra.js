@@ -1,4 +1,3 @@
-//Menu lateral
 var menu_visible = false;
 let menu = document.getElementById("nav");
 function mostrarOcultarMenu(){
@@ -42,10 +41,8 @@ crearBarra(ilustrator);
 
 
 let contadores = [-1,-1,-1,-1,-1,-1];
-//esta variable la voy a utilizar de bandera para saber si ya ejecuto la animación
 let entro = false;
 
-//función que aplica las animaciones de la habilidades
 function efectoHabilidades(){
     var habilidades = document.getElementById("habilidades");
     var distancia_skills = window.innerHeight - habilidades.getBoundingClientRect().top;
@@ -72,7 +69,6 @@ function efectoHabilidades(){
     }
 }
 
-//lleno una barra particular con la cantidad indicada
 function pintarBarra(id_barra, cantidad, indice, interval){
     contadores[indice]++;
     x = contadores[indice];
@@ -84,7 +80,6 @@ function pintarBarra(id_barra, cantidad, indice, interval){
     }
 }
 
-//detecto el scrolling del mouse para aplicar la animación de la barra
 window.onscroll = function(){
     efectoHabilidades();
 }
