@@ -28,3 +28,11 @@ ul{
     border-radius: 20px;
     font-weight: bold;
 }
+h2{
+    background-color: cadetblue;
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
+}
+
