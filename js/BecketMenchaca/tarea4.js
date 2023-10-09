@@ -1,0 +1,14 @@
+let Persona1 = "Maxwell Wright";
+let Persona2 = "Raja Villarreal";
+let Persona3 = "Helen Richards";
+let TelfPersona1 = "(0191) 719 6495";
+let Telfpersona2 = "0866 398 2895";
+let Telfpersona3 = "0800 1111";
+let CorreoPersona1 = "Curabitur.egestas.nunc@nonummyac.co.uk";
+let CorreoPersona2 = "posuere.vulputate@sed.com";
+let CorreoPersona3 = "libero@convallis.edu";
+console.log("DATOS DEL PERSONAL:");
+console.log("Persona1:");
+console.log("NAME: ", Persona1+"; ", "PHONE: ", TelfPersona1+"; ", "EMAIL: ", CorreoPersona1);
+console.log("Persona3:");
+console.log("NAME: ", Persona3+"; ", "PHONE: ", TelfPersona3+"; ", "EMAIL: ", CorreoPerson3);
