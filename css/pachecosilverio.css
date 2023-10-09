@@ -1,4 +1,5 @@
-*{
+*/*{
+    background-color:rgb(245, 247, 246);
     font-family: cursive;
     text-align: center;
 }
@@ -12,4 +13,216 @@ table{
 td,th{
     border: 1px solid #dddddd;
     text-align: left;
+}*/
+
+/*mi pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*inicio de header*/
+.header{
+    width: 100%;
+    height: 4em;
+    background: linear-gradient(rgba(4, 184, 175, 0.945),rgb(2, 2, 24));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    object-fit: cover;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    text-align: center;
+    color: rgba(12, 12, 12, 0.507);
+}
+/*inicio de nav*/
+.nav{
+    width: 100%;
+    height: 3em;
+    background-color:rgb(2, 2, 24) ;
+}
+.barnav{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(9, 148, 148, 0.568);
+    color: rgb(251, 252, 253);
+    font-family:inheritx;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+.menu:hover{
+    background-color:aquamarine;
+    transition: 1s;
+}
+.menu a{
+    width: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #ffffffb7;
+}
+.menu a:hover{
+    color: black;
+    transition: 1s;
+}
+/*inicio de banner*/
+.banner{
+    width: 100%;
+    background-image: url(../images/img2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forma{
+    width: 100%;
+}
+.title-banner{
+    font-size: 3em;
+    color:#ffffffb7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px; text-shadow: 5px 5px 5px rgba(0, 255, 255, 0.664);
+    margin-top: 50px;
+}
+
+/*inicio de articulo*/
+.titu{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#ffffffb7;
+}
+.article{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgb(7, 156, 149),rgb(2, 2, 24));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.title-article{
+    color:#ffffffb7;
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.paragraph-article{
+    font-size: 1.25em;
+    width: 80%;
+    text-align: justify;
+    margin: 2em;
+}
+.boxx-galery{
+    width: 30%;
+    height:auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.boxx-galery h1{
+    color:#ffffffb7;
+}
+.galery{
+    width: 80%;
+    height: 40%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-galery{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 74, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+}
+.box-img{
+    width: 100%;
+    height: 300%;
+    background-color: rgb(3, 74, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.box-img h3{
+    color:#ffffffb7;
+    font-size: 20px;
+}
+
+.btn-img{
+    width: auto;
+    background: linear-gradient(rgb(7, 156, 149),rgb(2, 2, 24));
+    text-decoration: none;
+    padding: 0.10em 1em;
+    color: rgb(247, 243, 241);
+    font-size: 1em;
+    margin: 1em 0;
+    border-radius: 0.5em;
+    font-size: 20px;
+}
+.btn-img:hover{
+    color: black;
+}
+
+/*inicio de fooder*/
+.footer{
+    width: 100%;
+    height: auto;
+    background-color:rgb(5, 28, 29);
+}
+.textos{
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 253, 252);
+}
+.texto a:hover{
+    color: rgb(8, 247, 199);
 }
