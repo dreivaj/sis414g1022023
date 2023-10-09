@@ -1,0 +1,36 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.columna {
+    overflow: hidden;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+.h1{
+    font-weight: bold;
+    
+}
+#columna1 {
+    width: 380px;
+    background-color: slategrey;
+    color: antiquewhite;
+}
+#columna2 {
+    flex: 3;
+}
+#imagen{
+    border-radius: 100px;
+}
+.linea {
+    border: none; /* Elimina el borde predeterminado */
+    height: 2px; /* Altura de la línea */
+    background-color: antiquewhite; /* Color de la línea (en este caso, negro) */
+    width: 80%;
+    margin: 10px 0; /* Margen superior e inferior para separar la línea de otros elementos */
+}
