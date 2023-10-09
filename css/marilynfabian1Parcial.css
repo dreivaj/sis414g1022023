@@ -335,7 +335,6 @@ textarea{
 }
 
 /*Footer*/
-
 footer{
     background: #ebc0fd;
     padding-bottom: 0.1px ;
@@ -383,7 +382,6 @@ footer{
 }
 .line{
     width: 100%;
-    /*max-width: 1200px;*/
     margin: 0;
     height: 2px;
     background: #fff;
