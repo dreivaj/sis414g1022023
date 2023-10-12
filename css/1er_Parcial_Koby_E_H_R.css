@@ -1,13 +1,13 @@
-body {
+body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: #1d1f22;
     overflow-x: hidden;
     overflow-y: auto;
-  }
+}
   
-  header {
+header{
     position: relative;
     background: url('../images/Mio_3.jpg') center/cover no-repeat;
     color: black;
@@ -15,9 +15,9 @@ body {
     padding: 10em 1em;
     font-family: 'Open Sans', sans-serif;
     z-index: 1;
-  }
+}
   
-  header::after {
+header::after{
     content: '';
     position: absolute;
     top: 0;
@@ -28,9 +28,9 @@ body {
     pointer-events: none;
     opacity: 1;
     transition: opacity 0.3s ease;
-  }
+}
   
-  main {
+main{
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -43,14 +43,14 @@ body {
     z-index: 99;
   }
 
-  #particles-js {
+#particles-js{
 	height: 100vh; 
 	width: 100%;
     position: fixed;
     z-index: -1;
 }
 
-  .cell {
+.cell{
     width: 30%;
     background-color: rgba(255, 255, 255, 0.8);
     margin: 1em;
@@ -60,41 +60,41 @@ body {
     position: relative;
     z-index: 1;
     
-  }
+}
   
-  h2 {
+h2{
     color: #333;
     text-align: center;
-  }
+}
   
-  p {
+p{
     color: #555;
-  }
+}
   
-  ul {
+ul{
     list-style: none;
     padding: 0;
-  }
+}
   
-  li {
+li{
     margin-bottom: 0.5em;
-  }
+}
   
-  footer {
+footer{
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1em;
-  }
+}
   
-  .image-left {
+.image-left{
     float: left;
     margin-right: 1em;
     max-width: 200px;
-    max-height: 200px;
-  }
+    max-height: 100px;
+}
   
-  @keyframes parpadeo {
+@keyframes parpadeo{
     0%, 41%, 45%, 47%, 49.5%, 100% {
       opacity: 1;
     }
@@ -102,13 +102,25 @@ body {
     42%, 44%, 46%, 48%, 50% {
       opacity: 0;
     }
-  }
+}
 
-  .image-bg {
+.image-bg{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../images/Mio_4.jpg');
-  }
+
+}
   
-  
+.cell .justificado{
+    text-align: justify;
+}
+
+.marca-de-agua {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2em;
+  opacity: 0.3;
+  color: #ccc;
+  z-index: -1;
+}
