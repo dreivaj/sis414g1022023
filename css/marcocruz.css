@@ -1,0 +1,42 @@
+*{  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+body{
+    background: linear-gradient(rgb(3, 1, 29), rgba(1, 1, 95, 0.897));
+}
+h1{
+    color: white;
+}
+h5 {
+    color: white;
+    margin-top: 0px;
+}
+h3{
+    margin-bottom: 1px;
+}
+.cabeza{
+    max-width: 800px;
+    margin: 10px auto auto auto;
+    border-radius: 1em;
+    background: linear-gradient(rgba(2, 116, 151, 0.253), rgba(4, 157, 184, 0.884));
+    box-shadow: 0 0 30px black;
+}
+#image{
+    border-radius: 100px;
+}
+hr {
+    width: 400px;
+    border-color: white;
+}
+a{
+    color: rgba(209, 209, 33, 0.747);
+}
+.tareas{
+    height: 100%;
+    max-width: 800px;
+    margin: 10px auto auto auto;
+    border-radius: 1em;
+    background: linear-gradient(rgb(2, 116, 151), rgb(3, 39, 139));
+    box-shadow: 0px 0px 30px black;
+}
