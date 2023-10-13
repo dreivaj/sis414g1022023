@@ -7,7 +7,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-image: url("../images/marilynfabianFondo.webp");
     background-size: cover;
-
 }
 
 /*controlar el comportamiento del scroll*/
@@ -74,18 +73,6 @@ header{
     z-index: 2;
 }
 
-/*.buttons{
-    position: relative;
-    padding: 10px 15px;
-    border: none;
-    outline: none;
-    background: rgb(0, 0, 0);
-    color: #ebc0fd;
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    transition: 5s;
-}*/
 
 .button {
     width: 90%;
@@ -312,6 +299,7 @@ textarea{
     width: 100%;
     margin: 0%;
     padding-top:20px ;
+    
 }
 
 .cont-experts{
@@ -319,7 +307,7 @@ textarea{
     border-radius: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding-top:20px ;
@@ -335,7 +323,6 @@ textarea{
 }
 
 /*Footer*/
-
 footer{
     background: #ebc0fd;
     padding-bottom: 0.1px ;
@@ -383,7 +370,6 @@ footer{
 }
 .line{
     width: 100%;
-    /*max-width: 1200px;*/
     margin: 0;
     height: 2px;
     background: #fff;
@@ -486,4 +472,15 @@ footer{
         height: 10%;
 
     }
+}
+
+
+@media screen and (max-width:800px) {
+
+    .experts{
+        flex-direction: column;
+        width: 10px;
+        height: 10%;
+    }
+    
 }
