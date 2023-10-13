@@ -1,0 +1,300 @@
+#contenido {
+	width: 1300px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	flex-wrap: wrap;
+}
+
+body{
+	background:url('img/rojo.jpg');
+}
+
+#cuerpo {
+	width: 70%;
+	float: left;
+}
+
+#logo { 
+	margin-left: 520px;
+    position: relative;
+    top: 10px;
+    flex-wrap: wrap;
+}
+
+#titulo1 {
+	margin-left: 170px;
+    position:relative;
+    left: 10px;
+    top: -100px;
+    color: #FF0700;
+    font-size: 27px;
+    font-family: arial nova;
+    flex-wrap: wrap;
+}
+
+#titulo2 {
+	margin-left: 515px;
+    position:relative;
+    top: -110px;
+    left: 10px;
+    color: #FF0700;
+    font-size: 27px;
+    font-family: arial nova;
+    flex-wrap: wrap;
+}
+
+#menú ul{
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+#menú li{
+	font-family: arial nova;
+	font-size: 18px;
+	width: 130px;
+	float: left;
+	position: relative;
+	left: 550px;
+	display: inline;
+	top: -100px;
+	flex-wrap: wrap;
+}
+
+#menú li a{
+	color: #000000;
+	display: block;
+	padding: 1px;
+	text-decoration: none;
+	font-weight: bold;
+	flex-wrap: wrap;
+}
+
+#menú li a:hover{
+	color: #FF0700;
+	flex-wrap: wrap;
+}
+
+#fondo {
+	position: relative;
+	left: 200px;
+	top: -85px;
+	flex-wrap: wrap;
+}
+
+#titulo3 {
+	font-family: arial nova;
+	width: 300px;
+	position: relative;
+	left: 500px;
+	color: #FF0700;
+	flex-wrap: wrap;
+}
+
+#titulo3 img {
+	position: relative;
+	left: 13px;
+	top: 8px;
+	 flex-wrap: wrap;
+}
+
+#centro {
+	position: relative;
+	left: 420px;
+	top: -46px;
+	 flex-wrap: wrap;
+}
+
+#letra {
+	position: relative;
+	left: 100px;
+	font-family: arial nova;
+	top: -50px;
+	font-size: 15px;
+	 flex-wrap: wrap;
+}
+
+#letra1 {
+	float: left;
+	position: relative;
+	left: 575px;
+	font-family: arial nova;
+	top: -178px;
+	font-size: 15px;
+	 flex-wrap: wrap;
+}
+
+.boton1 {
+	position: relative;
+	left: 198px;
+	top: 13px;
+	padding-top:6px;
+    padding-bottom:6px;
+    padding-left:16px;
+    padding-right:16px;
+    background-color:#ffffff;
+    border-radius:30px;
+    border-color: #FF0700;
+     flex-wrap: wrap;
+}
+
+.boton1:hover {
+ 	background-color: #FF0700;
+    color: 000000;
+     flex-wrap: wrap;
+}
+
+#titulo4 {
+	font-family: arial nova;
+	width: 450px;
+	position: relative;
+	left: 250px;
+	color: #FF0700;
+	top: -140px;
+	font-size: 22px;
+	 flex-wrap: wrap;
+}
+
+#titulo4 img {
+	position: relative;
+    left: -40px;
+    top: 18px;
+     flex-wrap: wrap;
+}
+#titulo4a {
+	font-family: arial nova;
+	width: 450px;
+	position: relative;
+	left: 303px;
+	color: #FF0700;
+	top: -150px;
+	font-size: 22px;
+	 flex-wrap: wrap;
+}
+
+#centro1{
+	position: relative;
+	left: 745px;
+	top: -219px;
+	 flex-wrap: wrap;
+}
+
+#imagen {
+	position: relative;
+	left: -38px;
+	top: -40px;
+	 flex-wrap: wrap;
+}
+
+#primero img{
+	position: relative;
+	left: 350px;
+	top: -490px;
+	 flex-wrap: wrap;
+}
+
+#num1 {
+	position: relative; 
+	left: 570px;
+	top: -600px;
+	 flex-wrap: wrap;
+}
+
+#letra2 {
+	position: relative;
+	left: 350px;
+	top: -550px;
+	 flex-wrap: wrap;
+}
+
+#segundo1 img {
+	position: relative;
+	left: 700px;
+	top: -821px;
+	 flex-wrap: wrap;
+}
+
+#num2 {
+	position: relative;
+	left: 925px;
+	top: -928px;
+	 flex-wrap: wrap;
+}
+
+#letra3 {
+	position: relative;
+	left: 700px;
+	top:-882px;
+	 flex-wrap: wrap;
+}
+
+#tercero img {
+	position: relative;
+	left: 350px;
+	top: -900px;
+	 flex-wrap: wrap;
+}
+
+#num3 {
+	position: relative;
+	left: 577px;
+	top: -1006px;
+	 flex-wrap: wrap;
+}
+
+#letra4 {
+	position: relative;
+	left: 350px;
+	top: -960px;
+	 flex-wrap: wrap;
+}
+
+@media (max-width: 1000px)
+{
+	#logo{
+		width: 100%;
+	}
+}
+@media (max-width: 1000px)
+{
+	#titulo1{
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px)
+{
+	#titulo2{
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px)
+{
+	#menu ul{
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px)
+{
+	#menu li{
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px)
+{
+	#fondo{
+		width: 100%;
+	}
+}
+
+@media (max-width: 1000px)
+{
+	#letra1{
+		width: 100%;
+		position: relative;
+		top: 30px;
+		left: -2px;
+	}
+}
