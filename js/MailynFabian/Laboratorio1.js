@@ -14,5 +14,4 @@ function imprimir()
     console.long(nom2 + num2 + corr2)
     console.long(nom3 + num3 + corr3)
 }
-
  imprimir();
