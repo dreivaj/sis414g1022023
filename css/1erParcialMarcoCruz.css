@@ -32,7 +32,7 @@ body{
 
 header{
     width: 100%;
-    height: 430px;
+    height: 500px;
     background: #000428;  
     background: linear-gradient(to right, hsla(208, 89%, 56%, 0.521), hsla(236, 91%, 9%, 0.89)), url(https://elpotosi.net/img/contents/images_980/2022/01/25/397b990e-90d1-414b-84c7-64a7bfe91115.jpg);  
     background: linear-gradient(to right, hsla(208, 89%, 56%, 0.616), hsla(236, 91%, 9%, 0.884)), url(https://elpotosi.net/img/contents/images_980/2022/01/25/397b990e-90d1-414b-84c7-64a7bfe91115.jpg); 
@@ -87,6 +87,35 @@ footer{
     color: white;
 }
 
+.lab{
+    background-color: black;
+    margin-top: 50px;
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgba(14, 47, 233, 0.226); 
+
+  }
+.lab{
+    transition: transform 0.6s ease;
+}
+
+.lab:hover {
+  transform: scale(1.1);
+}
+
+@keyframes animacion {
+    0% {
+      transform: scale(1);
+      background-color: #ffffff00;
+    }
+    100% {
+      transform: scale(1.1);
+      background-color: #ffffff00;
+    }
+    
+  }
 @media screen and (max-width:900px){
     header{
         background-position: center;
@@ -101,38 +130,4 @@ footer{
     .lab{
         width: 90%;
     }
-    
 }
-.lab{
-    background-color: black;
-    margin-top: 50px;
-    width: 810px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
-    box-shadow: 0px 0px 50px rgba(14, 47, 233, 0.226); 
-
-    
-  }
-  
-  @keyframes animacion {
-    0% {
-      transform: scale(1);
-      background-color: #ffffff00;
-    }
-    100% {
-      transform: scale(1.1);
-      background-color: #ffffff00;
-    }
-    
-  }
-.lab{
-    transition: transform 0.3s ease;
-}
-
-.lab:hover {
-  transform: scale(1.1);
-}
-  
-  
-  
