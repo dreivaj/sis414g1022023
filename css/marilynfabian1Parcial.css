@@ -299,6 +299,7 @@ textarea{
     width: 100%;
     margin: 0%;
     padding-top:20px ;
+    
 }
 
 .cont-experts{
@@ -306,7 +307,7 @@ textarea{
     border-radius: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding-top:20px ;
@@ -471,4 +472,15 @@ footer{
         height: 10%;
 
     }
+}
+
+
+@media screen and (max-width:800px) {
+
+    .experts{
+        flex-direction: column;
+        width: 10px;
+        height: 10%;
+    }
+    
 }
