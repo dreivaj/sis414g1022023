@@ -14,17 +14,7 @@ body{
 /*inicio de header*/
 .header{
     width: 100%;
-    height: 4em;
-    background: linear-gradient(rgba(4, 184, 175, 0.945),rgb(2, 2, 24));
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.logo{
-    object-fit: cover;
-    height: 100%;
-    float: right;
+    background: linear-gradient(rgba(7, 156, 149, 0.507),rgba(2, 2, 24, 0.815));
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,12 +27,13 @@ body{
 /*inicio de nav*/
 .nav{
     width: 100%;
-    height: 3em;
-    background-color:rgb(2, 2, 24) ;
+    height: 3em; 
+    background-color:rgb(0, 0, 0) ;
 }
 .barnav{
     width: 100%;
     height: 50%;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -52,7 +43,7 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background-color: rgba(9, 148, 148, 0.568);
+    background-color: rgba(9, 148, 148, 0.829);
     color: rgb(251, 252, 253);
     font-family:inheritx;
     text-decoration: none;
@@ -79,6 +70,7 @@ body{
 /*inicio de banner*/
 .banner{
     width: 100%;
+    height: 400px;
     background-image: url(../images/img2.jpg);
     display: flex;
     flex-direction: column;
@@ -90,12 +82,10 @@ body{
 }
 .title-banner{
     font-size: 3em;
-    color:#ffffffb7;
+    color:#ffffffd2;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px; text-shadow: 5px 5px 5px rgba(0, 255, 255, 0.664);
-    margin-top: 50px;
+    font-size: 60px; text-shadow: 5px 5px 5px rgba(0, 255, 255, 0.66);
 }
-
 /*inicio de articulo*/
 .titu{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -104,12 +94,12 @@ body{
 .article{
     width: 100%;
     height: auto;
-    background: linear-gradient(rgb(7, 156, 149),rgb(2, 2, 24));
+    padding-top: 20px;
+    background: linear-gradient(rgba(16, 83, 122, 0.719),rgba(2, 2, 24, 0.815));
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .title-article{
     color:#ffffffb7;
@@ -134,6 +124,10 @@ body{
 .boxx-galery h1{
     color:#ffffffb7;
 }
+.logos{
+    width: 80%;
+    height: 40%;
+}
 .galery{
     width: 80%;
     height: 40%;
@@ -143,51 +137,42 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-.box-galery{
+.laboratorios{
     width: 100%;
-    height: 100%;
-    background-color: rgb(3, 74, 77);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    border-radius: 5px;
-}
-.box-img{
-    width: 100%;
-    height: 300%;
-    background-color: rgb(3, 74, 77);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-}
-.box-img h3{
+    text-align: center;
+    background-color:rgba(2, 2, 24, 0.815);
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color:#ffffffb7;
-    font-size: 20px;
+    padding-bottom: 30px;
 }
-
-.btn-img{
-    width: auto;
-    background: linear-gradient(rgb(7, 156, 149),rgb(2, 2, 24));
-    text-decoration: none;
-    padding: 0.10em 1em;
-    color: rgb(247, 243, 241);
-    font-size: 1em;
-    margin: 1em 0;
-    border-radius: 0.5em;
-    font-size: 20px;
+.labor{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(2, 2, 24, 0.815);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
 }
-.btn-img:hover{
-    color: black;
+.labor textarea{
+    width: 100%;
+    background-color: rgba(27, 22, 22, 0.712);
+    color: rgba(26, 228, 26, 0.541);
+}
+.labor h1{
+    text-align: center;
+    color: rgba(127, 255, 212, 0.473);
+    font-size: 150%;
 }
 
 /*inicio de fooder*/
 .footer{
     width: 100%;
     height: auto;
-    background-color:rgb(5, 28, 29);
+    background-color:rgba(37, 29, 39, 0.856);
+}
+.redes{
+    text-align:right;
 }
 .textos{
     display: flex;
@@ -206,5 +191,5 @@ a{
     color: rgb(250, 253, 252);
 }
 .texto a:hover{
-    color: rgb(8, 247, 199);
+    color: rgba(8, 247, 199, 0.438);
 }
