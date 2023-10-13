@@ -7,7 +7,7 @@ let contacts = [{
     phone: "0866 398 2895",
     email: "posuere.vulputate@sed.com"
     }, {
-    name: "Helen Richards",
+        name: "Helen Richards",
     phone: "0800 1111",
     email: "libero@convallis.edu"
     }];

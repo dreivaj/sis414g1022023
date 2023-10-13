@@ -16,7 +16,7 @@ let contacts = [
     }
 ];
 
-let showContact = function(contacts, i) {
+    let showContact = function(contacts, i) {
     if (contacts instanceof Array && contacts[i]) {
         console.log(`${contacts[i].name} / ${contacts[i].phone} / ${contacts[i].email}`);
     }
