@@ -8,6 +8,7 @@
     <link rel="stylesheet"  href="../css/marilynfabian1Parcial.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="header" id="inicio">
@@ -84,13 +85,17 @@
                 <a href="#contacto" style="text-decoration: none;">Contacto</a>  
             </class>
         </nav>
-        <div class="contenedor head">
+        <div class="contenedor head" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500" >
             <h1 class="titulo">EXAMEN DE PRIMER PARCIAL</h1>
             <p>El objetivo principal del curso es guiarlo desde un estado de completo analfabetismo de programación hasta un nivel de conocimiento de programación que le permita diseñar, escribir, depurar y ejecutar programas codificados en el lenguaje JavaScript, y comprender los conceptos básicos de la tecnología de desarrollo de software.</p>
         </div>
     </header>
     <main>
-        <section class="laboratorios contenedor" id="laboratorio">
+        <section class="laboratorios contenedor" id="laboratorio" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <h2 class="subtitulo">Laboratorios Javascript</h2>
             <div class="contenedor-laboratorio">
                 <img src="../images/marilynfabian3.png" alt="">
@@ -127,7 +132,8 @@
 
             </div>
             <div class="container" id="laboratorio">
-                <div class="card" id="uno">
+                <div class="card" id="uno" data-aos="fade-up"
+                data-aos-duration="2000">
                     <h1>LABORATORIO 1</h1>
                     <a href="../js/MailynFabian/Laboratorio1.js"><img src="../images/marilynfabian2.png"></a>
                     <br>
@@ -162,7 +168,8 @@
 </textarea>
 </div>
                 </div>
-                <div class="card" id="dos">
+                <div class="card" id="dos" data-aos="fade-up"
+                data-aos-duration="2000">
                     <h1>LABORATORIO 2</h1>
                     <a href="../js/MailynFabian/Laboratorio2.js"><img src="../images/marilynfabian2.png"></a>
                     <br>
@@ -204,7 +211,8 @@
 </div>
                 </div>
 
-                <div class="card" id="tres">
+                <div class="card" id="tres" data-aos="fade-up"
+                data-aos-duration="2000">
                     <h1>LABORATORIO 3</h1>
                     <a href="../js/MailynFabian/Laboratorio3.js"><img src="../images/marilynfabian2.png"></a>
                     <br>
@@ -249,7 +257,8 @@
 </div>
                 </div>
 
-                <div class="card" id="cuatro">
+                <div class="card" id="cuatro" data-aos="fade-up"
+                data-aos-duration="2000">
                     <h1>LABORATORIO 4</h1>
                     <a href="../js/MailynFabian/Laboratorio4.js"><img src="../images/marilynfabian2.png"></a>
                     <br>
@@ -306,7 +315,8 @@
                     </div>
                 </div>
 
-                <div class="card" id="cinco">
+                <div class="card" id="cinco" data-aos="fade-up"
+                data-aos-duration="2000">
                     <h1>LABORATORIO 5</h1>
                     <a href="../js/MailynFabian/Laboratorio5.js"><img src="../images/marilynfabian2.png"></a>
                     <br>
@@ -366,7 +376,8 @@ let contacts = [{
 </div>
                 </div>
 
-                <div class="card" id="seis">
+                <div class="card" id="seis" data-aos="fade-up"
+                data-aos-duration="2000">
                     <h1>LABORATORIO 6</h1>
                     <a href="../js/MailynFabian/Laboratorio6.js"><img src="../images/marilynfabian2.png"></a>
                     <br>
@@ -418,8 +429,6 @@ let contacts = [{
     }
     };
     
-    
-    
     showContact(contacts, 0); 
     showAllContacts(contacts); 
     
@@ -428,10 +437,9 @@ let contacts = [{
     showAllContacts(contacts);
 </textarea>
 </div>
-                    
                 </div>
-
-                <div class="card" id="siete">
+                <div class="card" id="siete" data-aos="fade-up"
+     data-aos-duration="2000">
                     <h1>LABORATORIO 7</h1>
                     <a href="../js/MailynFabian/Laboratorio7.js"><img src="../images/marilynfabian2.png"></a>
                     <br>
@@ -470,7 +478,6 @@ let contacts = [{
             }
         }
     }
-    
     letaddNewContact = function (contacts, name, phone, email) {
         if (contacts instanceof Array && name && phone && email) {
             contacts.push({
@@ -480,7 +487,6 @@ let contacts = [{
             });
         }
     }
-    
     let sortContacts = function (contacts, sortField) {
         if (contacts instanceof Array && sortField) {
             contacts.sort(function (a, b) {
@@ -494,7 +500,6 @@ let contacts = [{
             });
         }
     }
-    
     let runProgram = function () {
         let option = prompt("Introducir opcion (1. Mostrar un contacto, 2. Mostrar todos los contactos, 3. Agregar nuevo contacto, 4. Ordenar contactos):");
     
@@ -537,9 +542,9 @@ let contacts = [{
                 console.log("Invalidar opcion");
                 break;
         }
-    };
+    };   
     
-    runProgram();
+        runProgram();
 </textarea>
 </div>
                 </div>
@@ -547,32 +552,28 @@ let contacts = [{
             
             <section class="contenedor" id="herramientas">
                 <h2 class="subtitulo">Herramientas</h2>
-                <section class="experts">
-                    <div class="cont-experts">
+                <section class="experts" data-aos="zoom-in-down">
+                    <div class="cont-experts" data-aos="zoom-out-right" data-aos-duration="2011">
                         <iframe width="300px" height="210px" style="border-radius: 15%;" src="https://www.youtube.com/embed/Eh-s-n_6zNQ?si=O-ocDPlJ883ZrGla" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         <h3 class="n-expert">Curso completo de JavaScript</h3>
                     </div>
-                    <div class="cont-experts">
+                    <div class="cont-experts" data-aos="fade-up" data-aos-duration="2010" >
                         <a href="https://skillsforall.com/launch?id=062c7386-e936-452f-a584-65e0a3355ced&tab=curriculum&view=fc64a6c2-a1c3-5eff-8dcf-9d3a420818b8"><img src="../images/marilynfabian4.jpg" alt="" width="300px" height="210px" style="border-radius: 15%;" ></a>
                         <h3 class="n-expert">Aprende JavaScript con CISCO </h3>
                     </div>
-                    <div class="cont-experts">
+                    <div class="cont-experts" data-aos="zoom-out-left" data-aos-duration="2020">
                         <img src="../images/marilynfabiangif.gif" alt="" width="300px" height="210px" style="border-radius: 15%;">
                         <h3 class="n-expert">Animo!</h3>
                     </div>
                 </section>
             </section>
-
-
-
-
     </main>
-
-
-    <footer id="contenedor" >
-        <div class="contenedor footer-content">
+    <footer id="contenedor"  data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom" >
+        <div class="contenedor footer-content"  data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
             <div class="contact-us" >
-                <h2 class="brand">Marilyn Fabian</h2>
+                <h2 class="brand">Jenny Fabian</h2>
                 <p>Estudiante</p>
             </div>
             <hr>
@@ -587,6 +588,10 @@ let contacts = [{
         </div>
     </footer>
     <script src="../js/MailynFabian/menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
 
