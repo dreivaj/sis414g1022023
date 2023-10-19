@@ -1,0 +1,196 @@
+.cabezera{
+	top: 100%;
+	width: 100%;
+	padding:1px;
+	float: left;
+	box-sizing:border-box;
+}
+
+.contenedor{
+	width:80%;
+	max-width:1000px;
+	margin:0 auto;
+}
+
+#img {
+	position: relative;
+	left: 45px;
+}
+
+.main{
+	position:relative;
+	width: 100%;
+	padding:1px;
+	float: left;
+	box-sizing:border-box;
+}
+
+.main2{
+	width: 100%;
+	padding:20px;
+	float: left;
+	box-sizing:border-box;
+}
+
+#letra{
+	padding:15px;
+	float:left;
+	width:45%;
+	font-family: arial nova;
+	font-size: 15px;
+}
+
+#letra1{
+	padding:15px;
+	float:left;
+	width:45%;
+	font-family: arial nova;
+  font-size: 15px;
+}
+
+.boton1 {
+	width: 20%;
+	left: 198px;
+	top: 13px;
+	padding-top:6px;
+    padding-bottom:6px;
+    padding-left:16px;
+    padding-right:16px;
+    background-color:#ffffff;
+    border-radius:30px;
+    border-color: #FF0700;
+}
+
+.boton1:hover {
+ 	background-color: #FF0700;
+    color: 000000;
+}
+
+#t2 {
+	padding:10px;
+	width:80%;
+	font-family: arial nova;
+	font-size: 20px;
+}
+
+#primero{
+	padding:15px;
+	float:left;
+	width:45%;
+	font-family: arial nova;
+	font-size: 15px;
+}
+
+#segundo{
+	padding:10px;
+	float:left;
+	width:45%;
+	font-family: arial nova;
+  font-size: 15px;
+}
+
+#tercero{
+	padding:15px;
+	float:left;
+	width:45%;
+	font-family: arial nova;
+	font-size: 15px;
+}
+
+#titulo1 {
+    color: #FF0700;
+    font-size: 27px;
+    font-family: arial nova;
+
+}
+
+#titulo2 {
+		position: relative;
+    color: #FF0700;
+    font-size: 50px;
+		left: 50px;
+		width:100%;
+		font-family: arial nova;
+		display:inline;
+		top: 20px;
+}
+
+#menú {
+	margin-left: 25%;
+	position:relative;
+	color: #FF0700;
+	font-size: 30px;
+	font-family: arial nova;
+}
+
+
+#menú li a{
+	color: #000000;
+	display: block;
+	padding: 1px;
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+  margin-right: 10px;
+  padding: 0 4px;
+}
+
+#menú ul{
+	list-style: none;
+}
+
+#menú li{
+	font-family: arial nova;
+	font-size: 18px;
+	width: 105px;
+	left: 550px;
+	display: inline;
+	top: -100px;
+}
+
+#menú li a:hover{
+	color: #FF0700;
+	flex-wrap: wrap;
+}
+
+#letra3 {
+	position: relative;
+	top: 4px;
+}
+
+
+
+@media screen and (max-width:800px){
+	#a1{
+		align: center;
+		width: 100%;
+	}
+	#menú li a{
+		width:100%;
+		font-size:15px;
+	}
+	#letra{
+		width: 100%;
+	}
+	#letra1{
+		width: 100%;
+	}
+	#primero{
+		width: 100%;
+	}
+	#segundo{
+		width: 100%;
+	}
+	#tercero{
+		width: 100%;
+	}
+	#titulo2{
+		font-size: 15px;
+	}
+	#menú li a{
+		font-size: 15px;
+	}
+	#imagen{
+		width: 100%;
+	}
+}
