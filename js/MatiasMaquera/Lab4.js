@@ -44,3 +44,4 @@ switch (opcion) {
 
 let lasta = contacts.length - 1;
 console.log(`${contacts[lasta].name} / ${contacts[lasta].phone} / ${contacts[lasta].email}`);
+
