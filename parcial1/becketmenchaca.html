@@ -4,251 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/becketmenchaca1erParcial.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Document</title>
 </head>
 <body>
-    <header class="header" id="inicio">
-        <img src="../images/menu.png" alt="" class="menu">
-        <nav class="menu-navegacion">
-            <a href="#inicio">inicio</a>
-            <a href="#tareas">Tareas</a>
-            <a href="#laboratorio">Laboratorio</a>
-        </nav>
-        <div class="contenedor head">
-            <h1 class="titulo">EXAMEN PRIMER PARCIAL</h1>
-            <p class="copy">Becket Ramiro Menchaca Velasquez</p>
+    <header>
+        <div class="container_header">
+            <div class="logo">
+                <a href="#">
+                    <img src="../images/logobecket.png" alt="">
+                </a>
+            </div>
+
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Laboratorio</a></li>
+                        <li><a href="#">javascript</a></li>
+                    </ul>
+                </nav>
+                 </div>
+            </div>
         </div>
     </header>
+
     <main>
-        <section class="contenedor" id="inicio">
-            <h2 class="subtitulo">JavaScript</h2>
-            <div class="javascript">
-                <img src="../images/PrimerParcial.jpg" alt="">
-                <div class="checklist-javascript">
-                    <div class="java">
-                        <h3 class="n-java"><span class="number">1</span>Aprendiendo JavaScript</h3>
-                        <p>JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web 
-                            interactivas. Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, 
-                            las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.</p>
-                    </div>
-                </div>
+        <div id="inicio" class="container_cover div_offset">
+            <!-- Contenido de la sección de inicio -->
+        </div>
+    
+        <div id="laboratorio" class="container_trust container_card-primary">
+            <!-- Contenido de la sección de laboratorio -->
+        </div>
+    
+        <div id="javascript" class="container_about div_offset">
+            <!-- Contenido de la sección de JavaScript -->
+        </div>
+        <div class="container__cover div__offset">
+            <div class="cover">
+                <section class="text__cover">   
+                    <h1>Becket Ramiro Menchaca Velasquez</h1>
+                    <p>Examen Primer Parcial</p>
+                    <a href="#" ç
+                    class="cover1">Empezar</a>                    
+                </section>
+                <section class="image__cover">
+                    <img src="../images/becketprimerparcial.png" alt="">
+                </section>
             </div>
-        </section>
-        <section class="Tareas" id="tareas">
-            <div class="contenedor">
-                <h2 class="subtitulo">Tareas</h2>
-                <div class="contenedor-tareas">
-                    <img src="../images/tareasprimerparcial.jpg" alt="" class="img-tarea">
+        </div>
+
+        <div class="container__trust container__card-primary">
+            <div class="trust card__primary">
+                <div class="text__trust text__card-primary">
+                    <p>PRESENTACION DE LABORATORIOS</p>
+                    <h1>Laboratorios de JavaScript</h1>
                 </div>
-            </div>
-        </section>
-        <section class="contenedor" id="laboratorio">
-            <h2 class="subtitulo">Laboratorios de JavaScript</h2>
-            <section class="laboratorio">
-                <div class="con-laboratorio">
-                    <h2>Laboratorio JavaScript</h2>
-                    <ul>
-                        <li>Laboratorios <a href="../js/BecketMenchaca/becketmenchacalab.js">Ver</a></li>
-                    </ul>
-                
-                    <h2>2.0.15 Laboratorio "Variables"</h2>
-                    <pre>
-                        <code>
-                            let name1 = "Maxwell Wright";
-                    let phone1 = "(0191) 719 6495";
-                    let email1 = "Curabitur.egestas.nunc@nonummyac.co.uk";
-                    
-                    let name2 = "Raja Villarreal";
-                    let phone2 = "0866 398 2895";
-                    let email2 = "posuere.vulputate@sed.com";
-                    
-                    let name3 = "Helen Richards";
-                    let phone3 = "0800 1111";
-                    let email3 = "libero@convallis.edu";
-                    
-                    console.log("Primer contacto:");
-                    console.log(name1);
-                    console.log(phone1);
-                    console.log(email1);
-                    
-                    console.log("\nÚltimo contacto:");
-                    console.log(name3);
-                    console.log(phone3);
-                    console.log(email3);
-                        </code>
-                    </pre>
-                    <br>
-                    <h2>2.2.5 Laboratorio "Data Types"</h2>
-                    <pre>
-                        <code>
-                            let contactos = [{
-                                nombre: "Maxwell Wright",
-                                celular: "(0191) 719 6495",
-                                email: "Curabitur.egestas.nunc@nonummyac.co.uk"
-                                }, {
-                                nombre: "Raja Villarreal",
-                                celular: "0866 398 2895",
-                                email: "posuere.vulputate@sed.com"
-                                }, {
-                                nombre: "Helen Richards",
-                                celular: "0800 1111",
-                                email: "libero@convallis.edu"
-                                }];
-                                let newContactos = {name:"Maisie Haley", phone:"0913 531 3030", email:"risus.Quisque@urna.ca."};
-                                contactos.push(newContactos);
-                                console.log(contactos.length);
-                                console.log(contactos[0].nombre,"/",contactos[0].celular,"/",contactos[0].email);
-                                console.log(contactos[3].nombre,"/",contactos[3].celular,"/",contactos[3].email);
-                        </code>
-                    </pre>
-                    <br>
-                    <h2>3.2.5 Laboratorio "Interaction "</h2>
-                    <pre>
-                        <code>
-                            let contacto = [{
-                                nombre: "Maxwell Wright",
-                                telefono: "(0191) 719 6495",
-                                email: "Curabitur.egestas.nunc@nonummyac.co.uk"
-                                }, {
-                                nombre: "Raja Villarreal",
-                                telefono: "0866 398 2895",
-                                email: "posuere.vulputate@sed.com"
-                                }, {
-                                nombre: "Helen Richards",
-                                telefono: "0800 1111",
-                                email: "libero@convallis.edu"
-                                }];
-                                
-                                let nombre = window.prompt("What is your name?"," ");
-                                let telefono = prompt("What is your phone number?");
-                                let email = prompt("What is your email?");
-                                alert("Gracias por introducir los datos,");
-                                let newContacto = {nombre, telefono, email};
-                                contacto.push(newContacto);
-                                
-                                let last = contacto.length - 1;
-                                console.log(`${contacto[0].nombre} / ${contacto[0].telefono} / ${contacto[0].email}`);
-                                console.log(`${contacto[last].nombre} / ${contacto[last].telefono} / ${contacto[last].email}`);
-                        </code>
-                    </pre>
-                    <br>
-                    
-                    <h2>4.0.9  Laboratorio "Conditional execution"</h2>
-                    <pre>
-                        <code>
-                            let contact = [{
-                                nombre: "Maxwell Wright",
-                                celular: "(0191) 719 6495",
-                                email: "Curabitur.egestas.nunc@nonummyac.co.uk"
-                                }, {
-                                nombre: "Raja Villarreal",
-                                celular: "0866 398 2895",
-                                email: "posuere.vulputate@sed.com"
-                                }, {
-                                nombre: "Helen Richards",
-                                celular: "0800 1111",
-                                email: "libero@convallis.edu"
-                                }];
-                                 
-                                let menù = "Seleccione una opción:\n" +
-                                            "1. Mostrar el primer contacto\n" +
-                                            "2. Mostrar el último contacto\n" +
-                                            "3. Añadir un nuevo contacto";
-                                
-                                let opcion = prompt(menù);
-                                
-                                switch (opcion) {
-                                case "1":
-                                    if (contacts.length > 0) {
-                                        alert(`Es el Primer contacto:\n${contactos[0].nombre} / ${contactos[0].celular} / ${contactos[0].email}`);
-                                    } else {
-                                        alert("No hay contactos disponibles.");
-                                    }
-                                    break;
-                                case "2":
-                                    if (contactos.length > 0) {
-                                        let lastContact = contactos[contactos.length - 1];
-                                        alert(`Último contacto:\n${lastContact.nombre} / ${lastContact.celular} / ${lastContact.email}`);
-                                    } else {
-                                        alert("No hay contactos disponibles.");
-                                    }
-                                    break;
-                                case "3":
-                                    let name = prompt("Nombre del nuevo contacto:");
-                                    let phone = prompt("Número de teléfono del nuevo contacto:");
-                                    let email = prompt("Correo electrónico del nuevo contacto:");
-                                    if (name && phone && email) {
-                                        let newContact = { name, phone, email };
-                                        contacts.push(newContact);
-                                        alert("Nuevo contacto añadido correctamente.");
-                                    } else {
-                                        alert("Todos los datos son necesarios. El contacto no se ha añadido.");
-                                    }
-                                    break;
-                                    default:
-                                        alert("Opción no válida.");
-                                    break;
-                                }
-                        </code>
-                    </pre>
-                    <br>
-                    <h2>4.1.12 Laboratorios "Loops"</h2>
-                    <pre>
-                        <code>
-                            let contactt = [{
-                                name: "Maxwell Wright",
-                                phone: "(0191) 719 6495",
-                                email: "Curabitur.egestas.nunc@nonummyac.co.uk"
-                                }, {
-                                name: "Raja Villarreal",
-                                phone: "0866 398 2895",
-                                email: "posuere.vulputate@sed.com"
-                                }, {
-                                name: "Helen Richards",
-                                phone: "0800 1111",
-                                email: "libero@convallis.edu"
-                                }];
-                                while (true){
-                                    let menu = "Seleccione una opción:\n" +
-                                               "1. Visualizar el primer contacto\n" +
-                                               "2. Visualizar el último contacto\n" +
-                                               "3. Mostrar todos los contactos\n" +
-                                               "4. Añadir un nuevo contacto\n" +
-                                               "5. Salir del programa";
-                                
-                                    let opcion = prompt(menu);
-                                
-                                    switch (opcion){
-                                        case "1":
-                                            if (contactt.length > 0){
-                                                alert(`Primer contacto:\n${contactt[0].name} / ${contactt[0].phone} / ${contactt[0].email}`);
-                                            }else {
-                                                alert("No hay contactos disponibles.");
-                                            }
+                <div class="container__trut container__box-cardPrimary">
+                    <div class="card__trust box__card-primary">
+                        <h2>2.0.15 Laboratorio "Variables</h2>
+                            <pre>
+                                <code>
+                                    let name1 = "Maxwell Wright";
+                                    let phone1 = "(0191) 719 6495";
+                                    let email1 = "Curabitur.egestas.nunc@nonummyac.co.uk";
+
+                                    let name2 = "Raja Villarreal";
+                                    let phone2 = "0866 398 2895";
+                                    let email2 = "posuere.vulputate@sed.com";
+
+                                    let name3 = "Helen Richards";
+                                    let phone3 = "0800 1111";
+                                    let email3 = "libero@convallis.edu";
+
+                                    console.log("Primer contacto:");
+                                    console.log(name1);
+                                    console.log(phone1);
+                                    console.log(email1);
+
+                                    console.log("\nÚltimo contacto:");
+                                    console.log(name3);
+                                    console.log(phone3);
+                                    console.log(email3);
+                                </code>
+                            </pre>
+                    <div class="card__trust box__card-primary">
+                        <h2>2.2.5 Laboratorio "Data Types</h2>
+                            <pre>
+                                <code>
+                                    let contactos = [{
+                                     nombre: "Maxwell Wright",
+                                     celular: "(0191) 719 6495",
+                                     email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+                                     }, {
+                                     nombre: "Raja Villarreal",
+                                     celular: "0866 398 2895",
+                                     email: "posuere.vulputate@sed.com"
+                                     }, {
+                                     nombre: "Helen Richards",
+                                     celular: "0800 1111",
+                                     email: "libero@convallis.edu"
+                                     }];
+                                     let newContactos = {name:"Maisie Haley", phone:"0913 531 3030", email:"risus.Quisque@urna.ca."};
+                                     contactos.push(newContactos);
+                                     console.log(contactos.length);
+                                     console.log(contactos[0].nombre,"/",contactos[0].celular,"/",contactos[0].email);
+                                     console.log(contactos[3].nombre,"/",contactos[3].celular,"/",contactos[3].email);                                            
+                                </code>
+                            </pre>
+                    <div class="card__trust box__card-primary">
+                        <h2>3.2.5 Laboratorio "Interaction</h2>
+                            <pre>
+                                <code> 
+                                    let contacto = [{
+                                    nombre: "Maxwell Wright",
+                                    telefono: "(0191) 719 6495",
+                                    email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+                                    }, {
+                                    nombre: "Raja Villarreal",
+                                    telefono: "0866 398 2895",
+                                    email: "posuere.vulputate@sed.com"
+                                    }, {
+                                    nombre: "Helen Richards",
+                                    telefono: "0800 1111",
+                                    email: "libero@convallis.edu"
+                                    }];
+                                                    
+                                    let nombre = window.prompt("What is your name?"," ");
+                                    let telefono = prompt("What is your phone number?");
+                                    let email = prompt("What is your email?");
+                                    alert("Gracias por introducir los datos,");
+                                    let newContacto = {nombre, telefono, email};
+                                    contacto.push(newContacto);
+                                                                                                            let last = contacto.length - 1;
+                                    console.log(`${contacto[0].nombre} / ${contacto[0].telefono} / ${contacto[0].email}`);
+                                    console.log(`${contacto[last].nombre} / ${contacto[last].telefono} / ${contacto[last].email}`);
+                                </code>
+                            </pre>
+                    <div class="card__trust box__card-primary">
+                        <h2>4.0.9  Laboratorio "Conditional execution</h2>
+                            <pre>
+                                <code>
+                                    let contact = [{
+                                    nombre: "Maxwell Wright",
+                                    celular: "(0191) 719 6495",
+                                    email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+                                    }, {
+                                    nombre: "Raja Villarreal",
+                                    celular: "0866 398 2895",
+                                    email: "posuere.vulputate@sed.com"
+                                    }, {
+                                    nombre: "Helen Richards",
+                                    celular: "0800 1111",
+                                    email: "libero@convallis.edu"
+                                    }];
+                                     
+                                    let menù = "Seleccione una opción:\n" +
+                                                "1. Mostrar el primer contacto\n" +
+                                                "2. Mostrar el último contacto\n" +                                                                          
+                                                "3. Añadir un nuevo contacto";
+            
+                                    let opcion = prompt(menù);
+                                    
+                                    switch (opcion) {
+                                    case "1":
+                                        if (contact.length > 0) {
+                                            alert(`Es el Primer contacto:\n${contactos[0].nombre} / ${contactos[0].celular} / ${contactos[0].email}`);
+                                        } else {
+                                            alert("No hay contactos disponibles.");
+                                        }
                                         break;
-                                        case "2":
-                                            if (contactt.length > 0) {
-                                                let lastContact = contact[contact.length - 1];
-                                                alert(`Último contacto:\n${lastContact.name} / ${lastContact.phone} / ${lastContact.email}`);
-                                            }else {
-                                                alert("No hay contactos disponibles.");
-                                            }
+                                    case "2":
+                                        if (contactos.length > 0) {
+                                            let lastContact = contactos[contactos.length - 1];
+                                            alert(`Último contacto:\n${lastContact.nombre} / ${lastContact.celular} / ${lastContact.email}`);
+                                        } else {
+                                              alert("No hay contactos disponibles.");
+                                        }
                                         break;
-                                        case "3":
-                                            if (contacts.length > 0) {
-                                                console.log("Todos los contactos:");
-                                                for (let i = 0; i < contacts.length; i++){
-                                                    console.log(`${i + 1}. ${contacts[i].name} / ${contacts[i].phone} / ${contacts[i].email}`);
-                                                }
-                                            }else {
-                                                console.log("No hay contactos disponibles.");
-                                            }
-                                        break;
-                                        case "4":
+                                    case "3":
                                         let name = prompt("Nombre del nuevo contacto:");
                                         let phone = prompt("Número de teléfono del nuevo contacto:");
                                         let email = prompt("Correo electrónico del nuevo contacto:");
@@ -256,255 +190,337 @@
                                             let newContact = { name, phone, email };
                                             contacts.push(newContact);
                                             alert("Nuevo contacto añadido correctamente.");
-                                        }else {
-                                            alert("Para añadir un nuevo contacto todos los datos son necesarios.\n"+
-                                                "El contacto no se ha añadido.");
+                                        } else {
+                                            alert("Todos los datos son necesarios. El contacto no se ha añadido.");
                                         }
-                                        break;
-                                        case "5":
-                                            alert("Saliendo del programa.");
                                         break;
                                         default:
                                             alert("Opción no válida.");
-                                        break;
-                                    }
-                                
-                                    if (opcion === "5"){
-                                        break;
-                                    }
-                                }
-                        </code>
-                    </pre>
-                    <br>
-                    <h2>5.1.11 Laboratorio "Functions (Part 1)"</h2>
-                    <pre>
-                        <code>
-                            let contacts = [{
-                                name: "Maxwell Wright",
-                                phone: "(0191) 719 6495",
-                                email: "Curabitur.egestas.nunc@nonummyac.co.uk"
-                                }, {
-                                name: "Raja Villarreal",
-                                phone: "0866 398 2895",
-                                email: "posuere.vulputate@sed.com"
-                                }, {
-                                name: "Helen Richards",
-                                phone: "0800 1111",
-                                email: "libero@convallis.edu"
-                                }];
-                                 
-                                function showContact(contactList, index){
-                                    if (contactList instanceof Array && index >= 0 && index < contactList.length){
-                                        let contact = contactList[index];
-                                        console.log(`Contacto ${index + 1}:\n${contact.name} / ${contact.phone} / ${contact.email}`);
-                                    } else {
-                                        console.log("Error: Argumentos incorrectos para mostrar un contacto.");
-                                    }
-                                }
-                                  
-                                function showAllContacts(contactList){
-                                    if (contactList instanceof Array){
-                                        if (contactList.length > 0) {
-                                            console.log("Todos los contactos:");
-                                        for (let i = 0; i < contactList.length; i++) {
-                                            console.log(`${i + 1}. ${contactList[i].name} / ${contactList[i].phone} / ${contactList[i].email}`);
+                                        break;                                                
+                                    }                        
+                                </code>
+                            </pre>
+                    <div class="card__trust box__card-primary">
+                        <h2>4.1.12 Laboratorios "Loops</h2>
+                            <pre>
+                                <code> 
+                                    let contactt = [{
+                                    name: "Maxwell Wright",
+                                    phone: "(0191) 719 6495",
+                                    email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+                                    }, {
+                                    name: "Raja Villarreal",
+                                    phone: "0866 398 2895",
+                                    email: "posuere.vulputate@sed.com"
+                                    }, {
+                                    name: "Helen Richards",
+                                    phone: "0800 1111",
+                                    email: "libero@convallis.edu"
+                                    }];
+                                    while (true){
+                                        let menu = "Seleccione una opción:\n" +
+                                                "1. Visualizar el primer contacto\n" +
+                                                "2. Visualizar el último contacto\n" +
+                                                "3. Mostrar todos los contactos\n" +
+                                                "4. Añadir un nuevo contacto\n" +
+                                                "5. Salir del programa";
+                                        
+                                        let opcion = prompt(menu);
+                                    
+                                        switch (opcion){
+                                            case "1":
+                                                if (contactt.length > 0){
+                                                alert(`Primer contacto:\n${contactt[0].name} / ${contactt[0].phone} / ${contactt[0].email}`);
+                                                }else {
+                                                    alert("No hay contactos disponibles.");
+                                                }
+                                            break;
+                                            case "2":
+                                                if (contactt.length > 0) {
+                                                let lastContact = contact[contact.length - 1];
+                                                    alert(`Último contacto:\n${lastContact.name} / ${lastContact.phone} / ${lastContact.email}`);
+                                                }else {
+                                                    alert("No hay contactos disponibles.");
+                                                }
+                                                break;
+                                            case "3":
+                                                if (contacts.length > 0) {
+                                                    console.log("Todos los contactos:");
+                                                    for (let i = 0; i < contacts.length; i++){
+                                                        console.log(`${i + 1}. ${contacts[i].name} / ${contacts[i].phone} / ${contacts[i].email}`);
+                                                    }
+                                                }else {
+                                                    console.log("No hay contactos disponibles.");
+                                                }
+                                            break;
+                                            case "4":
+                                            let name = prompt("Nombre del nuevo contacto:");
+                                            let phone = prompt("Número de teléfono del nuevo contacto:");
+                                            let email = prompt("Correo electrónico del nuevo contacto:");
+                                            if (name && phone && email) {
+                                            let newContact = { name, phone, email };
+                                                contacts.push(newContact);
+                                                alert("Nuevo contacto añadido correctamente.");
+                                            }else {
+                                                alert("Para añadir un nuevo contacto todos los datos son necesarios.\n"+
+                                                    "El contacto no se ha añadido.");
+                                            }
+                                            break;
+                                            case "5":
+                                                alert("Saliendo del programa.");
+                                            break;
+                                            default:
+                                                alert("Opción no válida.");
+                                            break;
                                         }
-                                        }else{
-                                        console.log("No hay contactos disponibles.");
-                                      }
-                                    } else {
-                                      console.log("Error: Argumento incorrecto para mostrar todos los contactos.");
+                                      
+                                            if (opcion === "5"){
+                                            break;
+                                        }
+                                    }                                                                                   
+                                </code>
+                            </pre>
+                    <div class="card__trust box__card-primary">
+                        <h2>5.1.11 Laboratorio "Functions (Part 1)</h2>
+                            <pre>
+                                <code>
+                                    let contacts = [{
+                                    name: "Maxwell Wright",
+                                    phone: "(0191) 719 6495",
+                                    email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+                                    }, {
+                                    name: "Raja Villarreal",
+                                    phone: "0866 398 2895",
+                                    email: "posuere.vulputate@sed.com"
+                                    }, {
+                                    name: "Helen Richards",
+                                    phone: "0800 1111",
+                                    email: "libero@convallis.edu"
+                                    }];
+                                             
+                                    function showContact(contactList, index){
+                                        if (contactList instanceof Array && index >= 0 && index < contactList.length){
+                                            let contact = contactList[index];
+                                            console.log(`Contacto ${index + 1}:\n${contact.name} / ${contact.phone} / ${contact.email}`);
+                                            } else {
+                                            console.log("Error: Argumentos incorrectos para mostrar un contacto.");
+                                            }
+                                        }
+                                              
+                                        function showAllContacts(contactList){
+                                            if (contactList instanceof Array){
+                                                if (contactList.length > 0) {
+                                                    console.log("Todos los contactos:");
+                                                for (let i = 0; i < contactList.length; i++) {
+                                                    console.log(`${i + 1}. ${contactList[i].name} / ${contactList[i].phone} / ${contactList[i].email}`);
+                                                }
+                                                }else{
+                                                console.log("No hay contactos disponibles.");
+                                            }
+                                            } else {
+                                            console.log("Error: Argumento incorrecto para mostrar todos los contactos.");
+                                            }
+                                        }
+                                        function addNewContact(contactList, name, phone, email) {
+                                            if (contactList instanceof Array && name && phone && email) {
+                                                let newContact = { name, phone, email };
+                                                contactList.push(newContact);
+                                                console.log("Nuevo contacto añadido correctamente.");
+                                            }else{
+                                                console.log("Error: Argumentos incorrectos para añadir un nuevo contacto.");
+                                            }
+                                        }
+                                        let menuu = "Seleccione una opción:\n" +
+                                                "1. Visualizar un contacto específico\n" +
+                                                "2. Visualizar todos los contactos\n" +
+                                                "3. Añadir un nuevo contacto\n" +
+                                                "4. Salir del programa";
+                                              
+                                        while (true) {
+                                        let opcion = prompt(menu);
+                                        switch (opcion) {
+                                            case "1":
+                                                let indexToShow = prompt("Ingrese el índice del contacto a mostrar:");
+                                                showContact(contacts, parseInt(indexToShow) - 1);
+                                            break;
+                                            case "2":
+                                                showAllContacts(contacts);
+                                            break;
+                                            case "3":
+                                                let newName = prompt("Nombre del nuevo contacto:");
+                                                let newPhone = prompt("Número de teléfono del nuevo contacto:");
+                                                let newEmail = prompt("Correo electrónico del nuevo contacto:");
+                                                addNewContact(contacts, newName, newPhone, newEmail);
+                                            break;
+                                                case "4":
+                                                    lert("Saliendo del programa.");
+                                            break;
+                                            default:
+                                                alert("Opción no válida.");
+                                            break;
+                                        }
+                                            
+                                        if (opcion === "4") {
+                                            break;
+                                        }
                                     }
-                                }
-                                function addNewContact(contactList, name, phone, email) {
-                                    if (contactList instanceof Array && name && phone && email) {
-                                        let newContact = { name, phone, email };
-                                        contactList.push(newContact);
-                                        console.log("Nuevo contacto añadido correctamente.");
-                                    }else{
-                                        console.log("Error: Argumentos incorrectos para añadir un nuevo contacto.");
+                                </code>
+                            </pre>
+                    <div class="card__trust box__card-primary">
+                        <h2>LAB 5.1.12 FUNCTIONS(Part 2)</h2>
+                            <pre>
+                                <code>
+                                    let contac = [
+                                    {
+                                        name: "Maxwell Wright",
+                                        phone: "(0191) 719 6495",
+                                        email: "Curabitur.egestas.nunc@nonummyac.co.uk"
+                                    },
+                                    {
+                                        name: "Raja Villarreal",
+                                        phone: "0866 398 2895",
+                                        email: "posuere.vulputate@sed.com"
+                                    },
+                                    {
+                                        name: "Helen Richards",
+                                        phone: "0800 1111",
+                                        email: "libero@convallis.edu"
                                     }
-                                }
-                                let menu = "Seleccione una opción:\n" +
-                                            "1. Visualizar un contacto específico\n" +
-                                            "2. Visualizar todos los contactos\n" +
-                                            "3. Añadir un nuevo contacto\n" +
-                                            "4. Salir del programa";
-                                  
-                                while (true) {
-                                    let opcion = prompt(menu);
+                                ];
+
+                                let continuar = true;
+
+                                while (continuar) {
+                                    let opcion = prompt("Selecciona una opción:
+                                    \n1. Mostrar contacto por posición
+                                    \n2. Mostrar último contacto
+                                    \n3. Mostrar todos los contactos
+                                    \n4. Agregar un nuevo contacto
+                                    \n5. Ordenar contactos
+                                    \n6. Salir del programa");
+
                                     switch (opcion) {
                                         case "1":
-                                            let indexToShow = prompt("Ingrese el índice del contacto a mostrar:");
-                                            showContact(contacts, parseInt(indexToShow) - 1);
-                                        break;
+                                            mostrarContactoPorPosicion();
+                                            break;
                                         case "2":
-                                            showAllContacts(contacts);
-                                        break;
+                                            mostrarUltimoContacto();
+                                            break;
                                         case "3":
-                                            let newName = prompt("Nombre del nuevo contacto:");
-                                            let newPhone = prompt("Número de teléfono del nuevo contacto:");
-                                            let newEmail = prompt("Correo electrónico del nuevo contacto:");
-                                            addNewContact(contacts, newName, newPhone, newEmail);
-                                        break;
+                                            mostrarTodosLosContactos();
+                                            break;
                                         case "4":
-                                            alert("Saliendo del programa.");
-                                        break;
+                                            agregarNuevoContacto();
+                                            break;
+                                        case "5":
+                                            ordenarContactos();
+                                            break;
+                                        case "6":
+                                            continuar = false;
+                                            console.log("Saliendo del programa...");
+                                            break;
                                         default:
-                                            alert("Opción no válida.");
-                                        break;
-                                    }
-                                    
-                                    if (opcion === "4") {
-                                      break;
+                                            console.log("Opción inválida. Por favor, elige una opción válida.");
                                     }
                                 }
-                        </code>
-                    </pre>
-                    <br>
-                    <h2>LAB 5.1.12 FUNCTIONS(Part 2)*</h2>
-                    <pre>
-                        <code>
-                            let contac = [
-                        {
-                            name: "Maxwell Wright",
-                            phone: "(0191) 719 6495",
-                            email: "Curabitur.egestas.nunc@nonummyac.co.uk"
-                        },
-                        {
-                            name: "Raja Villarreal",
-                            phone: "0866 398 2895",
-                            email: "posuere.vulputate@sed.com"
-                        },
-                        {
-                            name: "Helen Richards",
-                            phone: "0800 1111",
-                            email: "libero@convallis.edu"
-                        }
-                    ];
-                    
-                    let continuar = true;
-                    
-                    while (continuar) {
-                        let opcion = prompt("Selecciona una opción:\n1. Mostrar contacto por posición\n2. Mostrar último contacto\n3. Mostrar todos los contactos\n4. Agregar un nuevo contacto\n5. Ordenar contactos\n6. Salir del programa");
-                    
-                        switch (opcion) {
-                            case "1":
-                                mostrarContactoPorPosicion();
-                                break;
-                            case "2":
-                                mostrarUltimoContacto();
-                                break;
-                            case "3":
-                                mostrarTodosLosContactos();
-                                break;
-                            case "4":
-                                agregarNuevoContacto();
-                                break;
-                            case "5":
-                                ordenarContactos();
-                                break;
-                            case "6":
-                                continuar = false;
-                                console.log("Saliendo del programa...");
-                                break;
-                            default:
-                                console.log("Opción inválida. Por favor, elige una opción válida.");
-                        }
-                    }
-                    function mostrarContactoPorPosicion() {
-                        let posicion = parseInt(prompt("Ingrese la posición del contacto:"));
-                        if (!isNaN(posicion) && posicion >= 1 && posicion <= contacts.length) {
-                            let contacto = contacts[posicion - 1];
-                            mostrarDetalleContacto(contacto);
-                        } else {
-                            console.log("Error: Posición de contacto inválida.");
-                        }
-                    }
-                    function mostrarUltimoContacto() {
-                        if (contacts.length > 0) {
-                            let ultimoContacto = contacts[contacts.length - 1];
-                            mostrarDetalleContacto(ultimoContacto);
-                        } else {
-                            console.log("La lista de contactos está vacía.");
-                        }
-                    }
-                    function mostrarTodosLosContactos() {
-                        if (contacts.length > 0) {
-                            contacts.forEach((contacto, index) => {
-                                console.log(`${index + 1}.`);
-                                mostrarDetalleContacto(contacto);
-                            });
-                        } else {
-                            console.log("La lista de contactos está vacía.");
-                        }
-                    }
-                    function agregarNuevoContacto() {
-                        let nuevoNombre = prompt("Ingrese el nombre del nuevo contacto:");
-                        let nuevoTelefono = prompt("Ingrese el teléfono del nuevo contacto:");
-                        let nuevoEmail = prompt("Ingrese el correo electrónico del nuevo contacto:");
-                    
-                        if (nuevoNombre && nuevoTelefono && nuevoEmail) {
-                            let nuevoContacto = {
-                                name: nuevoNombre,
-                                phone: nuevoTelefono,
-                                email: nuevoEmail
-                            };
-                            contacts.push(nuevoContacto);
-                            console.log("Nuevo contacto agregado exitosamente.");
-                        } else {
-                            console.log("Error: Debes ingresar nombre, teléfono y correo electrónico para agregar un nuevo contacto.");
-                        }
-                    }
-                    function mostrarDetalleContacto(contacto) {
-                        console.log(`Nombre: ${contacto.name}`);
-                        console.log(`Teléfono: ${contacto.phone}`);
-                        console.log(`Email: ${contacto.email}`);
-                    }
-                    function ordenarContactos() {
-                        let opcionOrden = prompt("Selecciona cómo quieres ordenar los contactos:\n1. Por nombre\n2. Por teléfono\n3. Por correo electrónico");
-                    
-                        switch (opcionOrden) {
-                            case "1":
-                                contacts.sort((a, b) => a.name.localeCompare(b.name));
-                                break;
-                            case "2":
-                                contacts.sort((a, b) => a.phone.localeCompare(b.phone));
-                                break;
-                            case "3":
-                                contacts.sort((a, b) => a.email.localeCompare(b.email));
-                                break;
-                            default:
-                                console.log("Opción inválida para ordenar los contactos.");
-                        }
-                    
-                        console.log("Contactos ordenados.");
-                    }
-                        </code>
-                    </pre>
+                                function mostrarContactoPorPosicion() {
+                                    let posicion = parseInt(prompt("Ingrese la posición del contacto:"));
+                                    if (!isNaN(posicion) && posicion >= 1 && posicion <= contacts.length) {
+                                        let contacto = contacts[posicion - 1];
+                                        mostrarDetalleContacto(contacto);
+                                    } else {
+                                        console.log("Error: Posición de contacto inválida.");
+                                    }
+                                }
+                                function mostrarUltimoContacto() {
+                                    if (contacts.length > 0) {
+                                        let ultimoContacto = contacts[contacts.length - 1];
+                                        mostrarDetalleContacto(ultimoContacto);
+                                    } else {
+                                        console.log("La lista de contactos está vacía.");
+                                    }
+                                }
+                                function mostrarTodosLosContactos() {
+                                    if (contacts.length > 0) {
+                                        contacts.forEach((contacto, index) => {
+                                            console.log(`${index + 1}.`);
+                                            mostrarDetalleContacto(contacto);
+                                        });
+                                    } else {
+                                        console.log("La lista de contactos está vacía.");
+                                    }
+                                }
+                                function agregarNuevoContacto() {
+                                    let nuevoNombre = prompt("Ingrese el nombre del nuevo contacto:");
+                                    let nuevoTelefono = prompt("Ingrese el teléfono del nuevo contacto:");
+                                    let nuevoEmail = prompt("Ingrese el correo electrónico del nuevo contacto:");
+
+                                    if (nuevoNombre && nuevoTelefono && nuevoEmail) {
+                                        let nuevoContacto = {
+                                            name: nuevoNombre,
+                                            phone: nuevoTelefono,
+                                            email: nuevoEmail
+                                        };
+                                        contacts.push(nuevoContacto);
+                                        console.log("Nuevo contacto agregado exitosamente.");
+                                    } else {
+                                        console.log("Error: Debes ingresar nombre, teléfono y correo electrónico para agregar un nuevo contacto.");
+                                    }
+                                }
+                                function mostrarDetalleContacto(contacto) {
+                                    console.log(`Nombre: ${contacto.name}`);
+                                    console.log(`Teléfono: ${contacto.phone}`);
+                                    console.log(`Email: ${contacto.email}`);
+                                }
+                                function ordenarContactos() {
+                                    let opcionOrden = prompt("Selecciona cómo quieres ordenar los contactos:
+                                    \n1. Por nombre
+                                    \n2. Por teléfono
+                                    \n3. Por correo electrónico");
+
+                                    switch (opcionOrden) {
+                                        case "1":
+                                            contacts.sort((a, b) => a.name.localeCompare(b.name));
+                                            break;
+                                        case "2":
+                                            contacts.sort((a, b) => a.phone.localeCompare(b.phone));
+                                            break;
+                                        case "3":
+                                            contacts.sort((a, b) => a.email.localeCompare(b.email));
+                                            break;
+                                        default:
+                                            console.log("Opción inválida para ordenar los contactos.");
+                                    }
+
+                                    console.log("Contactos ordenados.");
+                                }
+                                </code>
+                            </pre>      
+                    </div>
                 </div>
-            </section>
-        </section>
-    </main>
-    <footer id="contacto">
-        <div class="contenedor footer-content">
-            <div class="contact-us">
-                <h2 class="brand">Becket Menchaca</h2>
-                <p>mi pagina web</p>
-            </div>
-            <div class="social-media">
-                <a href="./" class="social-media-icon">
-                    <i class='bx bxl-facebook'></i>
-                    <a href="./" class="social-media-icon">
-                        <i class='bx bxl-javascript' ></i>
-                        <a href="./" class="social-media-icon">
-                            <i class='bx bxl-java' ></i>
-                </a>
             </div>
         </div>
-        <div class="line"></div>
+        <div class="container__about div__offset">
+            <div class="about">
+                <div class="text__about">
+                    <h1>Aprendamos JavaScript</h1>
+                    <p>JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas. 
+                        Desde actualizar fuentes de redes sociales a mostrar animaciones y mapas interactivos, 
+                        las funciones de JavaScript pueden mejorar la experiencia del usuario de un sitio web.</p>
+                        <a href="#" class="btn__text-about cover1">Saber mas...</a>
+                </div>   
+                <div class="image__about">
+                    <img src="../images/tareasprimerparcial.jpg" alt="">           
+            </div>
+            
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Becket Ramiro Menchaca Velasquez - Todos los derechos reservados</p>
+        </div>
     </footer>
-    <script src="../js/BecketMenchaca/primerparcial.js"></script>
-    
+    <script src="../js/BecketMenchaca/primerparcial.js" ></script>
 </body>
 </html>
