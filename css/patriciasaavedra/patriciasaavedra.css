@@ -1,18 +1,18 @@
-/* importamos las fuentes */
+/* css de Cv*/
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
 *{
     font-family: "Titillium Web";
     margin: 0;
     padding: 0;
-}
+} 
 html{
     scroll-behavior: smooth;
 }
 
-/* SECCION INICIO */
+
 .inicio{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("../images/fondo.jpg");
+    url("../../images/patriciasaavedra/fondo.jpg");
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -172,7 +172,7 @@ html{
     padding: 80px 0 100px 0;
     text-align: center;
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("../images/habilidades.jpg");
+    url("../../images/patriciasaavedra/habilidades.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
