@@ -1,4 +1,13 @@
 *{
+<<<<<<< HEAD
+<<<<<<< HEAD
+    background-color: aqua;
+    font-family: cursive;
+    text-align: center;
+}
+=======
+=======
+>>>>>>> 52a0396630433a10b0337ce46790e5816bb948a9
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -193,3 +202,7 @@ a{
 .texto a:hover{
     color: rgba(8, 247, 199, 0.438);
 }
+<<<<<<< HEAD
+>>>>>>> 1eb18adca96ed1c703f45b4f62e0da36a2f56c53
+=======
+>>>>>>> 52a0396630433a10b0337ce46790e5816bb948a9
