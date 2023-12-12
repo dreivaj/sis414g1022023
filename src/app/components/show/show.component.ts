@@ -11,12 +11,20 @@ import { Router } from '@angular/router';
 
 export class ShowComponent implements OnInit {  
   Posts: Post[] 
-
+  dataUser: any;
    constructor(private postService: PostService, private afAuth: AngularFireAuth,
     private router: Router) {}
 
   ngOnInit(): void {        
   
+    this.afAuth.currentUser.then(user => {
+        if(user && user.emailVerified) {
+          this.dataUser = user;
+          console.log(user)
+        } else {
+          this.router.navigate(['/login']);
+        }
+      })
     
 
   

@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
-//importamos el servicio
 import { PostService } from 'src/app/post.service';
-//importamos los modulos para formularios
+
 import { FormBuilder, FormGroup } from '@angular/forms';
-//importamos el enrutador
+
 import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({

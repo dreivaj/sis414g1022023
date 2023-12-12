@@ -22,6 +22,8 @@ export class RegistrarUsuarioComponent implements OnInit {
     private firebaseError: FirebaseCodeErrorService
   ) {
     this.registrarUsuario = this.fb.group({
+      name: ['', [Validators.required]],
+      lastname: ['', [Validators.required]],
       email: ['', [Validators.required, Validators.email]],
       password: ['', [Validators.required, Validators.minLength(6)]],
       repetirPassword: ['', Validators.required],
@@ -31,18 +33,22 @@ export class RegistrarUsuarioComponent implements OnInit {
   ngOnInit(): void {}
 
   registrar() {
+    const name = this.registrarUsuario.value.name;
+    const lastname = this.registrarUsuario.value.lastname;
     const email = this.registrarUsuario.value.email;
     const password = this.registrarUsuario.value.password;
     const repetirPassowrd = this.registrarUsuario.value.repetirPassword;
 
     console.log(this.registrarUsuario);
     if (password !== repetirPassowrd) {
-      this.toastr.error(
+        this.toastr.error(
         'Las contraseñas ingresadas deben ser las mismas',
         'Error'
       );
       return;
     }
+
+    
 
     this.loading = true;
     this.afAuth
